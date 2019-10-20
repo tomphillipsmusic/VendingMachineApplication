@@ -1,10 +1,10 @@
 # **Vending Machine Software**
 
-As part of Tech Elevator's curriculum, I was assigned a project to create software for a hypothetical new vending machine (Vendo-Matic 800) that is integrated with everyone’s bank accounts allowing customers to purchase products right from their computers for convenience sake. It was coded entirely in Java and features a number of JUnit tests. 
+As part of Tech Elevator's curriculum, I was assigned a project to create software for a hypothetical new vending machine (Vendo-Matic 800) that is integrated with customer's bank accounts allowing customers to purchase products right from their computers for convenience sake. It was coded entirely in Java in the Eclipse IDE and features a number of JUnit tests. 
 
 ## What I learned
 
-This project was a great practice in creating a structured outline and plan based off a list of requirements. Before any code was written, I made sure to draft an outline of every class required and wrote pseudocode for each method. This cut down production time tremendously because there was a plan to follow every step of the way. Additionally, this application taught me the importance of testing each step of code in the moment versus testing everything at the end. In hindsight, there are too many void methods that proved difficult to test. In the future, I will be more careful to write code that is more easily testable.
+This project was a great practice in building a complete product entirely through pair programming. Before any code was written, I made sure to draft an outline of every class required and wrote pseudocode for each method. This cut down production time tremendously because there was a plan to follow every step of the way. Additionally, this application taught me the importance of testing each step of code in the moment versus testing everything at the end. In hindsight, we created too many void methods that proved difficult to test. In the future, I will becareful to write code that is more easily testable.
 
 ## Features
 
@@ -17,7 +17,6 @@ This project was a great practice in creating a structured outline and plan base
    (2) Purchase   
    (3) Exit
    
-
 3. The ending machine inventory is stocked via an input file when the vending machine is started.
    1. The vending machine is automatically restocked each time the application runs.
    2. When the customer selects (1) they are presented a formatted list of all items in the vending machine, their prices, and remaining      stock.
@@ -33,7 +32,6 @@ This project was a great practice in creating a structured outline and plan base
    (3) Finish Transaction
    
   Current Money Provided: $0.00
-
 
    1. By Selecting (1), a customer can repeatedly feed money into the machine in valid whole dollar amounts (e.g. $1, $2, $5, $10).
       1. The Current Money Provided indicates how much money the customer has fed into the machine.
