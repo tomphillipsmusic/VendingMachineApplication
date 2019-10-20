@@ -20,6 +20,7 @@ public class VendingMachineCLI {
 	}
 
 	public void run(VendingMachineInventory inventory, Purchase purchase) throws IOException {
+		System.out.println("Welcome to Vendo-Matic 800!");
 		while (true) {
 			String choice = (String) menu.getChoiceFromOptions(MAIN_MENU_OPTIONS);
 
