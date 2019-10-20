@@ -23,9 +23,7 @@ public class VendingMachineInventory {
 				String[] itemLine = lineInput.split("\\|");
 				String slotIdentifier = itemLine[0];
 				String itemName = itemLine[1];
-				double price = Double.parseDouble(itemLine[2]);
-				BigDecimal itemPrice = new BigDecimal(price);
-				itemPrice = itemPrice.setScale(2, BigDecimal.ROUND_UP);
+				BigDecimal itemPrice = new BigDecimal(itemLine[2]);
 				if(itemLine[3].equals("Chip")) {
 					vendingMachineInventory.add(new Chips(itemName, itemPrice, slotIdentifier));
 				}
