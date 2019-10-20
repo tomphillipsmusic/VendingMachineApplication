@@ -49,7 +49,7 @@ public class Purchase {
 		Scanner input = new Scanner(System.in);
 		String userInput = input.nextLine();
 		for (VendingMachineItem item : inventory.getVendingMachineInventory()) {
-			if (userInput.equals(item.getSlotIdentifier())) {
+			if (userInput.equalsIgnoreCase(item.getSlotIdentifier())) {
 				if (item.getStock() == 0) {
 					System.out.println("SOLD OUT");
 					return false;
