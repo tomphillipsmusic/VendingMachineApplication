@@ -13,9 +13,10 @@ This project was a great practice in creating a structured outline and plan base
   
 2. A main menu displays when the software is run that presents the following options:
 
-    (1) Display Vending Machine Items
-    (2) Purchase
-    (3) Exit
+   (1) Display Vending Machine Items   
+   (2) Purchase   
+   (3) Exit
+   
 
 3. The ending machine inventory is stocked via an input file when the vending machine is started.
    1. The vending machine is automatically restocked each time the application runs.
@@ -27,10 +28,10 @@ This project was a great practice in creating a structured outline and plan base
    
 4. When the customer selects (2) Purchase they are guided through the purchasing process menu:
 
-  (1) Feed Money
-  (2) Select Product
-  (3) Finish Transaction
-
+   (1) Feed Money
+   (2) Select Product
+   (3) Finish Transaction
+   
   Current Money Provided: $0.00
 
 
@@ -50,10 +51,11 @@ This project was a great practice in creating a structured outline and plan base
    
 5. All purchases must be audited to prevent theft from the vending machine
    1. Each purchase generates a line in a file called Log.txt
-   3. The audit entry is in the format:
-    01/01/2016 12:00:00 PM FEED MONEY: $5.00 $5.00
-    01/01/2016 12:00:15 PM FEED MONEY: $5.00 $10.00
-    01/01/2016 12:00:20 PM Crunchie B4 $10.00 $8.50
-    01/01/2016 12:01:25 PM Cowtales B2 $8.50 $7.50
+   2. The audit entry is in the format:
+
+    01/01/2016 12:00:00 PM FEED MONEY: $5.00 $5.00   
+    01/01/2016 12:00:15 PM FEED MONEY: $5.00 $10.00  
+    01/01/2016 12:00:20 PM Crunchie B4 $10.00 $8.50  
+    01/01/2016 12:01:25 PM Cowtales B2 $8.50 $7.50  
     01/01/2016 12:01:35 PM GIVE CHANGE: $7.50 $0.00
 
