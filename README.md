@@ -4,7 +4,7 @@ As part of Tech Elevator's curriculum, I was assigned a project to create softwa
 
 ## What I learned
 
-This project was a great practice in building a complete product entirely through pair programming. Before any code was written, I made sure to draft an outline of every class required and wrote pseudocode for each method. This cut down production time tremendously because there was a plan to follow every step of the way. Additionally, this application taught me the importance of testing each step of code in the moment versus testing everything at the end. In hindsight, we created too many void methods that proved difficult to test. In the future, I will becareful to write code that is more easily testable.
+This project was a great practice in building a complete product entirely through pair programming. Before any code was written, I made sure to draft an outline of every class required and wrote pseudocode for each method. This cut down production time tremendously because there was a plan to follow every step of the way. Additionally, this application taught me the importance of testing each step of code in the moment versus testing everything at the end. In hindsight, we created too many void methods that proved difficult to test. In the future, I will be careful to write code that is more easily testable.
 
 ## Features
 
