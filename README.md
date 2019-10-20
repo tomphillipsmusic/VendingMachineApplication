@@ -25,7 +25,7 @@ This project was a great practice in building a complete product entirely throug
    5. Every product is initially stocked to the maximum amount.
    6. A product which has run out indicates it is SOLD OUT.
    
-4. When the customer selects (2) Purchase they are guided through the purchasing process menu:
+4. When the customer selects (2) they are guided through the purchasing process menu:
 
    (1) Feed Money
    (2) Select Product
