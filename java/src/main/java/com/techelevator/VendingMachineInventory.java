@@ -45,7 +45,8 @@ public class VendingMachineInventory {
 	}
 	
 	public void printInventory() {
-		System.out.println("");
+		System.out.println("\nSlot   |     Item Name     |   Price   |  Stock ");
+		System.out.println("===================================================");
 		for (VendingMachineItem item : vendingMachineInventory) {
 			String slotIdentifier = item.getSlotIdentifier();
 			String itemName = item.getName();
@@ -54,7 +55,9 @@ public class VendingMachineInventory {
 			if (item.getStock() == 0) {
 				stock = "SOLD OUT";
 			}
-			System.out.println(slotIdentifier + " " + itemName + " $" + price + " " + stock);
+			System.out.printf("%-8s %-21s $%-8s %-8s\n", slotIdentifier, itemName, price, stock);
+			
+			//System.out.println(slotIdentifier + " " + itemName + " $" + price + " " + stock);
 		}
 	}
 	
